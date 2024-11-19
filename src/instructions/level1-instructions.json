@@ -1,0 +1,149 @@
+{
+  "challenges": [
+    {
+      "challengeId": 1,
+      "title": "Reto 1: Conexión Básica",
+      "objective": "Conectar los puntos para formar líneas simples.",
+      "description": "Conecta los puntos en una cuadrícula para formar líneas simples y ordenadas en un plano bidimensional. Cada conjunto está compuesto por 3 conexiones entre puntos, y debes completar 4 conjuntos en total para finalizar el reto. Debes seguir las reglas y evitar errores para avanzar. Este reto te ayudará a entender cómo se estructuran formas básicas en el espacio tridimensional.",
+      "restrictions": [
+        "No puedes repetir líneas ya trazadas entre los puntos de un mismo conjunto.",
+        "Cada conjunto debe ser completado antes de comenzar con un nuevo conjunto.",
+        "Debes conectar los puntos en el orden correcto para formar cada conjunto.",
+        "La distancia máxima entre dos puntos consecutivos es de 2 unidades."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Al intentar conectar puntos que exceden la distancia permitida, se restarán puntos.",
+        "Si intentas conectar puntos que ya están conectados, se restarán puntos.",
+        "Cada selección errónea de puntos cambiará de color momentáneamente al punto de color rojo.",
+        "Si cometes 3 errores consecutivos, el conjunto actual se reiniciará."
+      ],
+      "bonuses": [
+        "Cada conjunto completado correctamente otorga 10 puntos.",
+        "Al completar un conjunto, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Cada vez que completes un conjunto correctamente, aparecerá un mensaje visual indicando el éxito."
+      ]
+    },
+    {
+      "challengeId": 2,
+      "title": "Reto 2: Zigzag en el Espacio",
+      "objective": "Conectar los puntos siguiendo un patrón de zigzag.",
+      "description": "Conecta los puntos en el plano tridimensional siguiendo un patrón de zigzag. Debes seleccionar un punto inicial que se encuentre en el borde y luego continuar conectando los puntos en una secuencia en zigzag a través del espacio. Cada zigzag está compuesto por 4 puntos conectados con 3 líneas, y debes completar 4 zigzags en total para finalizar el reto. Este desafío fomenta la habilidad de visualizar patrones espaciales y conectar puntos de manera lógica y eficiente en un entorno tridimensional.",
+      "restrictions": [
+        "El primer punto que selecciones debe estar en el borde de la cuadrícula.",
+        "No puedes conectar más de 2 puntos consecutivos que ya hayan sido utilizados en un zigzag anterior.",
+        "Cada zigzag debe completarse siguiendo el patrón de conexión en zigzag entre puntos adyacentes.",
+        "Debes seguir la secuencia correcta para conectar cada punto en el patrón zigzag, evitando movimientos no válidos."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Seleccionar un punto fuera del patrón de zigzag restará puntos.",
+        "Si intentas seleccionar un punto que ya está conectado, se te penalizará.",
+        "Cada selección errónea hará que el punto seleccionado cambie de color a rojo durante un breve periodo.",
+        "Si cometes 3 errores consecutivos, el zigzag actual se reiniciará y deberás comenzar desde el primer punto del zigzag."
+      ],
+      "bonuses": [
+        "Cada zigzag completado correctamente otorga 10 puntos.",
+        "Cuando completes un zigzag, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual aparecerá al completar cada zigzag, indicando que has tenido éxito."
+      ]
+    },
+    {
+      "challengeId": 3,
+      "title": "Reto 3: Diagonal Dinámica",
+      "objective": "Conectar puntos ubicados en las esquinas de una cuadrícula en un patrón diagonal.",
+      "description": "En este reto, debes conectar puntos que se encuentran en las esquinas de la cuadrícula, siguiendo un patrón diagonal a través del espacio tridimensional. Los puntos pueden moverse verticalmente, lo cual añade un desafío adicional para anticipar sus posiciones. Debes completar 2 conexiones diagonales en total para finalizar el reto.",
+      "restrictions": [
+        "El primer punto seleccionado debe estar en una de las esquinas de la cuadrícula.",
+        "Solo puedes conectar los puntos que se encuentran en posiciones opuestas diagonalmente.",
+        "No puedes conectar puntos que ya han sido utilizados en una conexión previa.",
+        "Las conexiones deben seguir el patrón diagonal correcto, comenzando desde un extremo y terminando en el opuesto."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Intentar conectar puntos que no están en el patrón diagonal restará puntos.",
+        "Si intentas conectar un punto que ya ha sido conectado, se te penalizará.",
+        "Cada selección errónea hará que el punto seleccionado cambie momentáneamente a color rojo.",
+        "Si cometes 3 errores consecutivos, el conjunto actual se reiniciará y deberás comenzar desde el primer punto."
+      ],
+      "bonuses": [
+        "Cada conexión diagonal completada correctamente otorga 10 puntos.",
+        "Al completar una conexión diagonal, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual aparecerá al completar cada conexión diagonal, indicando que has tenido éxito."
+      ]
+    },
+    {
+      "challengeId": 4,
+      "title": "Reto 4: Curva Básica",
+      "objective": "Conectar los puntos para formar una curva básica en el espacio.",
+      "description": "En este reto, debes conectar los puntos dispuestos en un arco semicircular. Cada punto debe ser seleccionado en el orden indicado, y no puedes saltarte ningún punto ni volver atrás. El objetivo es crear una curva suave y ordenada que represente una transición natural entre los puntos. Debes conectar un total de 8 puntos consecutivos para completar el reto. Esto te ayudará a comprender cómo la disposición y movimiento de los puntos pueden formar curvas, lo cual es fundamental en la representación de elementos arquitectónicos como arcos y superficies fluidas.",
+      "restrictions": [
+        "Debes iniciar por el punto amarillo.",
+        "No puedes repetir puntos ya conectados.",
+        "Debes seguir el orden correcto de los puntos para formar la curva.",
+        "La distancia máxima permitida entre dos puntos consecutivos es de 1 unidad."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Intentar conectar puntos fuera de orden restará puntos y cambiará el punto seleccionado a color rojo temporalmente.",
+        "Si intentas conectar un punto ya conectado o fuera del rango permitido, se te penalizará.",
+        "Si cometes 3 errores consecutivos, el reto se reiniciará y deberás comenzar desde el primer punto."
+      ],
+      "bonuses": [
+        "Cada conexión correcta otorga 10 puntos.",
+        "Al completar la curva, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual aparecerá al completar la curva, indicando que has tenido éxito."
+      ]
+    },
+    {
+      "challengeId": 5,
+      "title": "Reto 5: Curva Ascendente",
+      "objective": "Conectar los puntos en orden ascendente para formar una curva que ascienda en espiral.",
+      "description": "En este reto, debes conectar puntos que están dispuestos en diferentes niveles en un patrón ascendente. Estos puntos están distribuidos en una espiral que asciende por el espacio tridimensional. Cada nivel tiene un punto específico que debes seleccionar, evitando los puntos distractores. Conecta un total de 8 niveles consecutivos para formar una curva ascendente y completar el reto. Este desafío refuerza la capacidad de trabajar con alturas y patrones ascendentes, fundamentales en el diseño arquitectónico de estructuras como rampas, escaleras y formas curvas complejas.",
+      "restrictions": [
+        "Debes iniciar conectando los dos primeros puntos amarillos.",
+        "Solo puedes seleccionar los puntos correctos en cada nivel; los puntos distractores no deben ser conectados.",
+        "Debes conectar los puntos en el orden ascendente, comenzando desde el nivel inferior y avanzando hacia arriba.",
+        "No puedes seleccionar puntos fuera del patrón establecido de la espiral ascendente.",
+        "Cada conexión debe ser realizada en el orden de los niveles, sin saltarse ninguno."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Seleccionar un punto distractor o fuera del orden correcto restará puntos.",
+        "Si intentas conectar un punto ya conectado, serás penalizado.",
+        "Cada selección errónea hará que el punto seleccionado cambie de color a rojo por un breve periodo.",
+        "Si cometes 5 errores consecutivos, el reto se reiniciará y deberás comenzar desde el primer nivel."
+      ],
+      "bonuses": [
+        "Cada conexión correcta otorga 10 puntos.",
+        "Cuando completes el reto, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual aparecerá al completar el reto, indicando que has tenido éxito."
+      ]
+    },
+    {
+      "challengeId": 6,
+      "title": "Reto 6: Curva Dinámica en Espiral",
+      "objective": "Conectar los puntos en movimiento siguiendo la forma de una espiral ascendente.",
+      "description": "En este reto, debes conectar los puntos correctos en diferentes niveles que forman una espiral dinámica. Algunos de los puntos se encuentran en movimiento vertical, lo cual añade un nivel de dificultad adicional, ya que deberás anticipar sus posiciones. Completa 8 niveles consecutivos para formar una curva en espiral ascendente y completar el reto. Este desafío te ayudará a mejorar tu habilidad de visualización y precisión al trabajar con puntos en movimiento, un concepto clave en el diseño de estructuras fluidas y dinámicas.",
+      "restrictions": [
+        "Debes iniciar conectando los dos primeros puntos amarillos.",
+        "Solo puedes conectar los puntos correctos en cada nivel; evita conectar los puntos distractores.",
+        "Debes conectar los puntos en el orden ascendente, comenzando desde el nivel inferior y avanzando hacia arriba.",
+        "No puedes conectar puntos fuera del patrón de espiral ascendente.",
+        "Cada conexión debe ser realizada en el orden correcto de los niveles, sin saltar ninguno."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Seleccionar un punto distractor o fuera del orden correcto restará puntos.",
+        "Si intentas conectar un punto que ya está conectado, se te penalizará.",
+        "Cada selección errónea hará que el punto seleccionado cambie de color a rojo por un breve periodo.",
+        "Si cometes 5 errores consecutivos, el reto se reiniciará y deberás comenzar desde el primer nivel."
+      ],
+      "bonuses": [
+        "Cada conexión correcta otorga 10 puntos.",
+        "Al completar el reto, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual aparecerá al completar el reto, indicando que has tenido éxito."
+      ]
+    }
+  ]
+}

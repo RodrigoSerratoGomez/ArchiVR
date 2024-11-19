@@ -1,0 +1,52 @@
+{
+  "challenges": [
+    {
+      "challengeId": 1,
+      "title": "Reto 1: Construcción de un Cubo",
+      "objective": "Conectar puntos para formar un cubo tridimensional.",
+      "description": "Conecta los puntos en un entorno tridimensional para formar cubos completos. Cada cubo está compuesto por 8 puntos, y debes completar 12 cubos para finalizar el reto. Debes conectar los puntos en un orden lógico siguiendo las reglas del espacio tridimensional, lo cual te ayudará a visualizar y comprender la estructura espacial de un cubo.",
+      "restrictions": [
+        "No puedes repetir líneas ya trazadas entre los puntos de un mismo cubo.",
+        "El cubo debe estar compuesto por las conexiones adecuadas entre los puntos para formar un elemento tridimensional.",
+        "La distancia máxima entre dos puntos consecutivos es de 1 unidad."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Al intentar conectar puntos que exceden la distancia permitida, se restarán puntos.",
+        "Si intentas conectar puntos que ya están conectados, se restarán puntos.",
+        "Cada selección errónea de puntos cambiará momentáneamente el color del punto seleccionado a rojo.",
+        "Si cometes 2 errores consecutivos, el conjunto actual se reiniciará y deberás comenzar desde el primer punto del cubo."
+      ],
+      "bonuses": [
+        "Cada cubo completado correctamente otorga 10 puntos.",
+        "Cuando completes un cubo, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual aparecerá al completar cada cubo, indicando que has tenido éxito."
+      ]
+    },
+    {
+      "challengeId": 2,
+      "title": "Reto 2: Construcción de Cubos Complejos",
+      "objective": "Conectar los puntos para formar 4 cubos tridimensionales completos.",
+      "description": "Conecta los puntos en un espacio tridimensional para formar un total de 5 cubos. Cada cubo está compuesto por 8 puntos, y debes crear todas las conexiones necesarias para completar un cubo antes de pasar al siguiente. Este reto fomenta la habilidad de visualizar estructuras complejas en 3D y seguir una secuencia lógica para completar cada cubo.",
+      "restrictions": [
+        "No puedes repetir líneas ya trazadas entre los puntos de un mismo cubo.",
+        "Cada cubo debe estar completamente conectado antes de comenzar con el siguiente.",
+        "La distancia máxima entre dos puntos consecutivos es de 2.5 unidades.",
+        "Cada cubo debe estar compuesto de 8 puntos conectados adecuadamente para formar una estructura tridimensional cerrada."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Seleccionar un punto que ya está conectado restará puntos.",
+        "Al intentar conectar puntos que exceden la distancia permitida, se restarán puntos.",
+        "Cada selección incorrecta cambiará el color del punto seleccionado a rojo por un breve periodo.",
+        "Si cometes 3 errores consecutivos, el conjunto actual se reiniciará y deberás comenzar desde el primer punto del cubo."
+      ],
+      "bonuses": [
+        "Cada cubo completado correctamente otorga 10 puntos.",
+        "Cuando completes un cubo, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual aparecerá al completar cada cubo, indicando que has tenido éxito.",
+        "Cuando completes todos los cubos requeridos, se mostrará un mensaje indicando la finalización exitosa del reto."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "challenges": [
+    {
+      "challengeId": 1,
+      "title": "Reto 1: Límites en el Espacio",
+      "objective": "Conectar puntos en un cuadrado en diferentes conjuntos para formar líneas continuas sin repetir conexiones.",
+      "description": "En este reto, tu objetivo es conectar los puntos en una cuadrícula para formar líneas sencillas en un plano bidimensional. Los puntos están organizados en un cuadrado, y deberás conectar los puntos de forma ordenada para completar cuatro conjuntos en total, cada uno compuesto por tres conexiones. Esta actividad te ayudará a comprender la estructura de un plano y la forma en que las líneas pueden definir límites en el espacio tridimensional.",
+      "restrictions": [
+        "No se pueden repetir líneas ya trazadas entre los puntos de un mismo conjunto.",
+        "Cada conjunto debe ser completado antes de iniciar un nuevo conjunto.",
+        "Debes conectar los puntos en el orden correcto para formar cada conjunto.",
+        "El primer punto de cada conjunto está marcado en amarillo y debe ser el punto de inicio."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Al intentar conectar puntos que ya están conectados, se restarán puntos.",
+        "Cada selección errónea cambiará temporalmente el punto seleccionado a color rojo.",
+        "Si cometes 3 errores consecutivos, el conjunto actual se reiniciará."
+      ],
+      "bonuses": [
+        "Cada conjunto completado correctamente otorga 10 puntos.",
+        "Al completar un conjunto, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Cada vez que completes un conjunto, aparecerá un mensaje visual indicando el éxito."
+      ]
+    },
+    {
+      "challengeId": 2,
+      "title": "Reto 2: Profundidad y Superposición",
+      "objective": "Formar planos virtuales conectando puntos en diferentes niveles para explorar la profundidad y la superposición.",
+      "description": "Este reto consiste en conectar puntos para formar planos virtuales en varios niveles de altura. Cada nivel contiene puntos dispuestos en un cuadrado o rectángulo, y al conectar los puntos podrás crear planos paralelos que están alineados en distintos niveles. La superposición de estos planos permite explorar cómo las líneas generan la ilusión de diferentes profundidades. Debes comenzar cada plano conectando el punto inicial marcado en amarillo, y completar cada plano antes de pasar al siguiente.",
+      "restrictions": [
+        "Debes iniciar la conexión en cada plano desde el punto marcado en amarillo.",
+        "No puedes conectar puntos entre diferentes niveles, cada plano debe completarse independientemente.",
+        "Los puntos distractores se encuentran en alturas cercanas pero no iguales a las de los planos correctos.",
+        "Para formar cada plano correctamente, sigue la secuencia de puntos sin omitir ninguna conexión."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Si seleccionas un punto distractor, se restarán puntos.",
+        "Cada selección incorrecta hará que el punto seleccionado cambie temporalmente a color rojo.",
+        "Si cometes 3 errores consecutivos, el plano actual se reiniciará y deberás comenzar desde el punto inicial amarillo."
+      ],
+      "bonuses": [
+        "Cada plano completado correctamente otorga 15 puntos.",
+        "Al completar un plano, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual indicará el éxito cada vez que completes un plano, reforzando tu progreso."
+      ]
+    }
+  ]
+}

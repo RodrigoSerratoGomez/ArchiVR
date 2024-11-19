@@ -1,0 +1,13 @@
+.pointer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 180, 255, 0.5);
+  z-index: 40;
+  pointer-events: none;
+}

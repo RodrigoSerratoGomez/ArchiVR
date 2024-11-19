@@ -1,0 +1,48 @@
+{
+  "challenges": [
+    {
+      "challengeId": 1,
+      "title": "Reto 1: Creación de Planos en Diferentes Alturas",
+      "objective": "Conectar puntos en secuencia para formar planos en varias alturas, explorando la relación entre el suelo y el techo en un espacio tridimensional.",
+      "description": "En este reto, tu objetivo es conectar puntos en secuencia para crear planos horizontales en diferentes niveles de altura. Los planos representan distintos niveles en un espacio tridimensional, desde el suelo hasta el techo alto. Al conectar los puntos en secuencia, formarás superficies que permiten comprender cómo se estructuran los planos en un espacio. Debes completar cada plano en su conjunto antes de pasar al siguiente.",
+      "restrictions": [
+        "No puedes conectar puntos de distintos planos; cada plano debe completarse por separado.",
+        "Cada conjunto de cuatro puntos debe conectarse en orden para formar un plano específico.",
+        "No se permiten conexiones de puntos fuera de la secuencia correcta de cada plano."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Si seleccionas un punto incorrecto o fuera de secuencia, se restarán puntos.",
+        "Cada error cambiará temporalmente el color del punto a rojo como advertencia.",
+        "Si cometes 3 errores consecutivos, el plano actual se reiniciará desde el punto de inicio amarillo."
+      ],
+      "bonuses": [
+        "Completar cada plano correctamente otorga 10 puntos.",
+        "Al completar un plano, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual indicará cada logro al completar un plano, ayudando a monitorear el progreso."
+      ]
+    },
+    {
+      "challengeId": 2,
+      "title": "Reto 2: Formación de Planos en el Espacio",
+      "objective": "Conectar puntos en secuencia para formar múltiples planos virtuales en distintas posiciones, explorando la construcción de estructuras rectangulares en tres dimensiones.",
+      "description": "En este reto, tu objetivo es conectar puntos específicos para crear planos virtuales que representan diferentes áreas en un espacio tridimensional. Cada conjunto de puntos forma un plano rectangular, y debes conectar los puntos en el orden adecuado para completar cada plano. La formación de estos planos te permitirá experimentar cómo se construyen superficies y estructuras dentro de un espacio delimitado. Cada plano debe completarse antes de comenzar el siguiente.",
+      "restrictions": [
+        "No puedes conectar puntos de distintos planos; cada plano debe completarse por separado.",
+        "Cada conjunto de cuatro puntos debe conectarse en orden para formar un plano completo.",
+        "No se permiten conexiones de puntos fuera de la secuencia correcta de cada plano."
+      ],
+      "penalties": [
+        "Cada error restará 5 puntos.",
+        "Si seleccionas un punto incorrecto o fuera de secuencia, se restarán puntos.",
+        "Cada error cambiará temporalmente el color del punto a rojo como advertencia.",
+        "Si cometes 3 errores consecutivos, el plano actual se reiniciará desde el punto de inicio amarillo."
+      ],
+      "bonuses": [
+        "Completar cada plano correctamente otorga 15 puntos.",
+        "Al completar un plano, se reproducirá un sonido de éxito como retroalimentación positiva.",
+        "Un mensaje visual indicará cada logro al completar un plano, ayudando a monitorear el progreso."
+      ]
+    }
+  ]
+}
